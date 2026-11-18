@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+  background: #fbf7f2;
+  color: #5e4741;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Jost", system-ui, sans-serif;
+  overscroll-behavior: none;
+}
+
+/* Fundo com brilho suave em rosa, nude e dourado */
+.bg-romance {
+  background:
+    radial-gradient(120% 70% at 10% 0%, rgba(241, 207, 200, 0.55), transparent 60%),
+    radial-gradient(90% 60% at 100% 100%, rgba(227, 205, 156, 0.35), transparent 60%),
+    radial-gradient(80% 50% at 90% 10%, rgba(230, 205, 190, 0.45), transparent 60%),
+    #fbf7f2;
+}
+
+/* Textura de papel bem leve */
+.paper {
+  background-color: #fffdf9;
+  background-image: linear-gradient(180deg, #fffdf9 0%, #fdf7f1 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(100deg, #957641 0%, #cdae6e 35%, #e3cd9c 50%, #b8975a 70%, #957641 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gold-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #cdae6e, transparent);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #cdae6e, #b8975a 55%, #957641);
+  box-shadow: 0 12px 30px -12px rgba(149, 118, 65, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.scroll-soft::-webkit-scrollbar {
+  width: 4px;
+}
+.scroll-soft::-webkit-scrollbar-thumb {
+  background: #e6cdbe;
+  border-radius: 4px;
+}
+
+.safe-bottom {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+.safe-top {
+  padding-top: max(1rem, env(safe-area-inset-top));
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8E3DF"/><stop offset=".55" stop-color="#EFE4D6"/><stop offset="1" stop-color="#E3CD9C"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".42" r=".5">
+      <stop offset="0" stop-color="#FFFDF9" stop-opacity=".95"/><stop offset="1" stop-color="#FFFDF9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="210" r="170" fill="url(#sun)"/>
+  <path d="M0 390 Q100 350 200 375 T400 360 V500 H0Z" fill="#E6CDBE" opacity=".8"/>
+  <path d="M0 420 Q120 395 220 415 T400 405 V500 H0Z" fill="#DDBFAB" opacity=".8"/>
+  <!-- silhuetas -->
+  <g fill="#9A6B64" opacity=".85">
+    <circle cx="168" cy="215" r="26"/>
+    <path d="M128 380 C128 300 140 262 168 258 C196 262 210 300 206 380 Z"/>
+    <circle cx="236" cy="205" r="28"/>
+    <path d="M196 380 C198 296 210 252 236 248 C266 252 278 300 278 380 Z"/>
+  </g>
+  <path d="M190 160 l-6-5.5C172 144 164 137 164 128c0-7 5.6-12.6 12.6-12.6 4 0 7.8 1.9 10.4 4.8 2.6-2.9 6.4-4.8 10.4-4.8 7 0 12.6 5.6 12.6 12.6 0 9-8 16-20 26.5z" transform="translate(13 -6)" fill="#CDAE6E"/>
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#5E4741" opacity=".7">troque por public/images/casal.jpg</text>
+</svg>
