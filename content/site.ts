@@ -11,7 +11,7 @@ export const site = {
 
   /** Foto do casal (tela 2). Coloque sua imagem em /public/images e troque o caminho. */
   photo: {
-    src: "./images/casal.svg", // ex.: "./images/casal.jpg"
+    src: "./images/casal.jpg",
     alt: "Nós dois juntos",
     caption: "nós dois ♡",
   },
